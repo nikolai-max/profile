@@ -4,7 +4,10 @@
   height: 100px;
   width: 100;
   border-radius: 50%;
-  margin: 11px;
+}
+
+p {
+  margin: 28px;
 }
 
 body {
