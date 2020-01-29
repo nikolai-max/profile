@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:400,900&display=swap');
+
+.profile-picture {
+  height: 100px;
+  width: 100;
+  border-radius: 50%;
+}
+
+body {
+  background: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+  text-align: center;
+  color: #192965;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #192965;
+  font-size: 28px;
+  line-height: 1em;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #faafff;
+  font-size: 22px;
+  line-height: 1em;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #bbcfff;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card-white {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 12px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.button-blue {
+  display: block;
+  background-color: #192965;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 0px;
+  margin: 28px 280px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.list-inline {
+  list-style: none;
+  color: #192965;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 16px;
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
