@@ -58,12 +58,11 @@ a:hover {
 }
 
 .button-blue {
-  display: block;
+  display: inline-block;
   background-color: #192965;
   color: white;
   border-radius: 4px;
-  padding: 10px 0px;
-  margin: 28px 280px;
+  padding: 10px 20px;
   text-decoration: none;
   font-weight: 800;
 }
